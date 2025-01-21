@@ -1,6 +1,6 @@
 ### Baseline checklist for ensuring security in Kubernetes clusters ###
-#20250121
-
+# 2025_01_21
+# Ref: https://kubernetes.io/docs/concepts/security/security-checklist/
 
 - [ ] Authentication & Authorization
   - [ ] system:masters group is not used for user or component authentication after bootstrapping.
@@ -42,3 +42,4 @@
   - [ ] An appropriate selection of admission controllers is enabled.
   - [ ] A pod security policy is enforced by the Pod Security Admission or/and a webhook admission controller.
   - [ ] The admission chain plugins and webhooks are securely configured.
+
